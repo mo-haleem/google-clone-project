@@ -1,0 +1,41 @@
+nav {
+    display: flex; 
+    justify-content: space-around;
+    width : 20%;
+    margin-left: auto;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+} 
+nav img {
+    height: 20px; 
+}
+main {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+ input{
+     width: 80%;
+    padding: 1em;
+    border-radius: 30px ;
+    border: 1px solid grey;
+   
+}
+.butnscontainer {
+height: 20px;
+margin-top: 1em;
+}
+.butnscontainer button {
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+}
+.lang {
+    font-size: 13px;
+    margin:50px;
+}
+.lang a {
+    margin-right:5px;
+}
