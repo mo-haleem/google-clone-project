@@ -1,41 +1,88 @@
-nav {
-    display: flex; 
-    justify-content: space-around;
-    width : 20%;
-    margin-left: auto;
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
 }
-nav a{
-    text-decoration: none;
-    color:black;
-} 
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
 nav img {
-    height: 20px; 
+  height: 20px;
 }
 main {
-    width: 50%;
-    text-align: center;
-    margin: auto;
+  width: 50%;
+  text-align: center;
+  margin: 20vh auto;
 }
- input{
-     width: 80%;
-    padding: 1em;
-    border-radius: 30px ;
-    border: 1px solid grey;
-   
+
+#searchbox {
+  border-radius: 30px;
+  border: 1px solid grey;
+  margin: auto;
+}
+#searchbox img {
+  height: 20px;
+  margin-top: 15px;
+}
+
+input {
+  border: none;
+  width: 80%;
+  padding: 1em;
 }
 .butnscontainer {
-height: 20px;
-margin-top: 1em;
+  height: 20px;
+  margin-top: 1em;
 }
 .butnscontainer button {
-    padding: 10px;
-    border: none;
-    margin-right: 5px;
+  padding: 10px;
+  border: none;
+  margin-right: 5px;
 }
 .lang {
-    font-size: 13px;
-    margin:50px;
+  font-size: 13px;
+  margin: 50px;
 }
 .lang a {
-    margin-right:5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: rgb(243, 239, 239);
+  padding: 16px;
+  color: grey;
+}
+#country {
+  width: 100%;
+  border-bottom: 1px solid rgb(238, 233, 232);
+  height: 40px;
+}
+#services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  padding-top: 20px;
+}
+#carbon {
+  align-self: "center";
+}
+#services a {
+  margin-right: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
 }
